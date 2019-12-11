@@ -1,15 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Print_String_from_keyboard
+public class Exercise1
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        string str;
+
+        Console.Write("\n\nAccept a string from keyboard :\n");
+        Console.Write("-----------------------------------\n");
+        Console.Write("Input the string : ");
+        str = Console.ReadLine();
+        Console.Write("The string you entered is : {0}\n", str);
     }
 }
+/*
+Accept a string from keyboard :
+-----------------------------------
+Input the string : Hi how are you?
+The string you entered is : Hi how are you?
+Press any key to continue . . .
+*/
